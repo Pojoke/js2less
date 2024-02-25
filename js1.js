@@ -6,6 +6,10 @@ let mult = x * y;
 if (isNaN(mult)) {
     alert("Error!")
 }
-else {
+else if (x > 0 && y >0) {
+
     alert(mult);
+}
+else {
+    alert("x must be > 0");
 }
