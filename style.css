@@ -1,0 +1,29 @@
+#red,
+#green,
+#blue,
+#black {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+
+#red {
+    background: red;
+}
+
+#green {
+    background: green;
+}
+
+#blue {
+    background: blue;
+}
+
+#black {
+    background: black;
+}
+
+table {
+    border-style: ridge;
+    border-color: beige;
+}
