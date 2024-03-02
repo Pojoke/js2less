@@ -1,27 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
 <body>
-    <table>
-        <tr>
-          <td>
-            <div id="red" onclick="alert('Ви клацнули по червоному квадратику');"></div>
-          </td>
-          <td>
-            <div id="green" onclick="alert('Ви клацнули по зеленому квадратику');"></div>
-          </td>
-          <td>
-            <div id="blue" onclick="alert('Ви клацнули по синьому квадратику');"></div>
-          </td>
-          <td>
-            <div id="black" onclick="alert('Ви клацнули по чорному квадратику');"></div>
-          </td>
-        </tr>
-      </table>
+  <script>
+    let red = prompt("Введіть ім'я");
+    // let green = prompt("Червоний квадратик");
+    // let blue = prompt("Червоний квадратик");
+    // let black = prompt("Червоний квадратик");
+
+  </script>
+  <table>
+    <tr>
+      <td>
+        <div id="red" onclick='alert( red + " " + "ви натиснули на червоний квадратик"  )'></div>
+      </td>
+      <td>
+        <div id="green" onclick='alert( red + " " + "ви натиснули на зелений квадратик"  )'></div>
+      </td>
+      <td>
+        <div id="blue" onclick='alert( red + " " + "ви натиснули на блакитний квадратик"  )'></div>
+      </td>
+      <td>
+        <div id="black" onclick='alert( red + " " + "ви натиснули на чорний квадратик"  )'></div>
+      </td>
+    </tr>
+  </table>
 </body>
+
 </html>
