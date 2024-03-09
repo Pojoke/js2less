@@ -7,7 +7,7 @@ switch (n) {
     case "Літо": s = alert("Спекотно"); break;
     case "Осінь": s = alert("Прохолодно"); break;
     case "Весна": s = alert("Тепло"); break;
-
+    default: s = "Error";
 
 
 
